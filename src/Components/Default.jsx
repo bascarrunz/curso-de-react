@@ -15,7 +15,7 @@ const Default = () => {
                     <img src={reactLogo} className="logo react" alt="React logo"/>
                 </a>
             </div>
-            <h1>Vite + React</h1>
+            <h1>Vite + Reactuuu</h1>
 
             <h2>Diplomado en fullstack</h2>
             <h3>Mod 7: Curso de React</h3>

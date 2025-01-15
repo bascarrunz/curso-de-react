@@ -1,8 +1,28 @@
-# React + Vite
+# Curso de React
+Código del curso para el módulo de React del Diplomado Full Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Diplomante:
+Beto Roberto Ascarrunz Quispe
 
-Currently, two official plugins are available:
+## Detalle
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* React 18
+* Vite 6
+
+## Instalación
+
+```sh
+npm install
+```
+
+### Hot-Reload for Development
+
+```sh
+npm run dev
+```
+
+### for Production
+
+```sh
+npm run build
+```

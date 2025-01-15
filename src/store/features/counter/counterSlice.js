@@ -3,7 +3,7 @@ import { createSlice } from '@reduxjs/toolkit'
 const initialState = {
     // aca se define todas las variables globales
     // del componente Counter.jsx
-    value: 10,
+    value: 1,
     isLogged: 'true',
 }
 
