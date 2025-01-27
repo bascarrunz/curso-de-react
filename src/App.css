@@ -62,3 +62,113 @@
 .nav-link:hover {
   color: #5378c3;
 }
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.notification-success {
+  background-color: #efd6bd;
+  color: #cc8259;
+  padding: 2rem;
+  border: 1px solid #cc8259;
+  border-radius: 0.5rem;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  position: relative;
+}
+
+.close-btn-success {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: transparent;
+  border: none;
+  color: #7e4f1a;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.form-container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  color: #000000;
+}
+
+.formulario {
+  margin-bottom: 10px; 
+  text-align: right;
+  color: #000000;
+}
+
+.espacio {
+  margin-right: 110px;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.title {
+  font-size: 3rem;
+  color: white;
+  background-color: rgb(94, 185, 80);
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.section {
+  margin-bottom: 20px; 
+  text-align: left;
+  color: #000000;
+}
+.section h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.section .divider {
+  border-bottom: 2px solid rgb(94, 185, 80);
+  width: 100%; 
+}
+.table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  border: 0;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: #000000;
+}
+
+.footer {
+  text-align: center;
+  font-size: 13px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.footer .divider {
+  border-bottom: 1px solid rgb(94, 185, 80);
+  width: 100%; 
+}
